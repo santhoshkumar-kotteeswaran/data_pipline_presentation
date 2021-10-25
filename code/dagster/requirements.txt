@@ -1,0 +1,5 @@
+pip install dagster
+pip install dagit
+pip install psycopg2
+pip install pandas2
+pip install boto3
