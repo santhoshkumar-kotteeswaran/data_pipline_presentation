@@ -71,13 +71,15 @@ insert into bs (user_id,item_id) values (it_1,it_2,it_3),(it_2,it_5,it_8);
     1. Clone/Download this project
     2. Navigate to `code/airflow/`
     3. Move `bs_dag.py` to `/dags` (Folder structure you create as part of installing docker)
-    4. Navigate to localhost:8080
+    4. Run `pip install -r requirements.txt`
+    5. Navigate to localhost:8080
 
 2. Dagster:
     1. Clone/Download this project
     2. Navigate to `code/dagster/`
     3. Run `dagit -f bs_dagster.py`
-    4. Navigate to localhost:3000
+    4. Run `pip install -r requirements.txt`
+    5. Navigate to localhost:3000
 
 
 #### Documentation:
